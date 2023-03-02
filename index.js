@@ -15,5 +15,5 @@ function findFactorialIterative(number) {
   return answer;
 }
 
-console.log(findFactorialRecursive(10));
-console.log(findFactorialIterative(10));
+console.log("recursive approach:", findFactorialRecursive(10));
+console.log("iterative approach:", findFactorialIterative(10));
